@@ -7,9 +7,10 @@ export default function Experience() {
                 Education
 
             </p>
-            <div className="row-start flex gap-10">
+            <div className="lg:flex gap-5">
 
                 <Card image="/images/loyolaloogo.png" name="Loyola" description="Primary and Secondary"></Card>
+                <Card image="/images/media-304634621.jpg" name="Fergusson College" description="Higher Secondary"></Card>
                 <Card image="/images/uop_logo.jpg" name="University of Pune" description="College"></Card>
                 <Card image="/images/Saint-Mary-University-2991839189.jpg" name="Saint Mary's University" description="Masters"></Card>
             </div>
