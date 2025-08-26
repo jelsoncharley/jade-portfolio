@@ -1,4 +1,5 @@
-import { FlipCard } from "./flipCard";
+import { ExpCard } from "./expCard";
+import * as data from "../../data/company.json"
 
 export default function Experience() {
     return (
@@ -6,7 +7,13 @@ export default function Experience() {
             <p>
                 Experience
             </p>
-            <FlipCard></FlipCard>
+            <div className="lg:flex gap-5">
+                {
+                    data.company.map((company) => {
+                        return <ExpCard image={company.image} name={company.name} position={company.position} duration={company.duration}></ExpCard>
+                    })
+                }
+            </div>
         </div>
     );
 }

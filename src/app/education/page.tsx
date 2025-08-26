@@ -1,4 +1,4 @@
-import { Card } from "./card";
+import { EduCard } from "./eduCard";
 
 export default function Experience() {
     return (
@@ -8,11 +8,10 @@ export default function Experience() {
 
             </p>
             <div className="lg:flex gap-5">
-
-                <Card image="/images/loyolaloogo.png" name="Loyola" description="Primary and Secondary"></Card>
-                <Card image="/images/media-304634621.jpg" name="Fergusson College" description="Higher Secondary"></Card>
-                <Card image="/images/uop_logo.jpg" name="University of Pune" description="College"></Card>
-                <Card image="/images/Saint-Mary-University-2991839189.jpg" name="Saint Mary's University" description="Masters"></Card>
+                <EduCard image="/images/loyolaloogo.png" name="Loyola" description="Primary and Secondary"></EduCard>
+                <EduCard image="/images/media-304634621.jpg" name="Fergusson College" description="Higher Secondary"></EduCard>
+                <EduCard image="/images/uop_logo.jpg" name="University of Pune" description="College"></EduCard>
+                <EduCard image="/images/Saint-Mary-University-2991839189.jpg" name="Saint Mary's University" description="Masters"></EduCard>
             </div>
         </div>
     );

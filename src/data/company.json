@@ -1,0 +1,22 @@
+{
+    "company": [
+        {
+            "name": "Calsoft Inc",
+            "image": "/images/logo.webp",
+            "position": "Development Engineer",
+            "duration": "August 2017 - December 2020"
+        },
+        {
+            "name": "Axis Capital",
+            "image": "/images/axis-capital-logo.png",
+            "position": "Intern (Data Engineer)",
+            "duration": "May 2021 - August 2021"
+        },
+        {
+            "name": "Canada Revenue Agency",
+            "image": "/images/canadian-revenue-agency.jpg",
+            "position": "Intern + IT Analyst/Developer",
+            "duration": "August 2017 - December 2020"
+        }
+    ]
+}
